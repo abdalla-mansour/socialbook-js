@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - SocialBook - Abdalla Mansour</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400&family=Rajdhani:wght@300&display=swap">
+    <script src="https://kit.fontawesome.com/6b890235df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="image/logo.png" class="logo">
+            <ul>
+                <li><img src="image/notification.png"></li>
+                <li><img src="image/inbox.png"></li>
+                <li><img src="image/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="image/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="image/profile-pic.jpg" alt="">
+            </div>
+        </div>
+        <!-- Settings Menu -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="image/profile-pic.jpg">
+                    <div>
+                        <p>Abdalla Mansour</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="image/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new desgin</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="image/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="image/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="image/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="image/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="image/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Profile Page -->
+    <div class="profile-container">
+        <img src="image/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="image/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="image/add-friends.png"> Friend</button>
+                <button type="button"><img src="image/message.png"> Message</button>
+                <br><a href=""><img src="image/more.png"></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable 
+                    things. <img src="image/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="image/profile-job.png"> Director at 99media Ltd</li>
+                        <li><img src="image/profile-study.png"> Studied at Amity University</li>
+                        <li><img src="image/profile-study.png"> Went to DPS Delhi</li>
+                        <li><img src="image/profile-home.png"> Lives in Cairo, Egypt</li>
+                        <li><img src="image/profile-location.png"> From Cairo, Egypt</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="image/photo1.png"></div>
+                        <div><img src="image/photo2.png"></div>
+                        <div><img src="image/photo3.png"></div>
+                        <div><img src="image/photo4.png"></div>
+                        <div><img src="image/photo5.png"></div>
+                        <div><img src="image/photo6.png"></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="image/member-1.png"> <p>Joseph N</p></div>
+                        <div><img src="image/member-2.png"> <p>Nathan N</p></div>
+                        <div><img src="image/member-3.png"> <p>George D</p></div>
+                        <div><img src="image/member-4.png"> <p>Francis L</p></div>
+                        <div><img src="image/member-5.png"> <p>Anthony E</p></div>
+                        <div><img src="image/member-6.png"> <p>Michael A</p></div>
+                        <div><img src="image/member-7.png"> <p>Edward M</p></div>
+                        <div><img src="image/member-8.png"> <p>Bradon C</p></div>
+                        <div><img src="image/member-9.png"> <p>James Doe</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="image/profile-pic.jpg">
+                        <div>
+                            <p>Abdalla Mansour</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Abdalla?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="image/live-video.png"> Live Video</a>
+                            <a href="#"><img src="image/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="image/feeling.png"> Feling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/profile-pic.jpg">
+                            <div>
+                                <p>Abdalla Mansour</p>
+                                <span>December 3 2003, 13:50 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Subscribe <span>@GLD VIP YT</span> Youtube channel to watch more videos on
+                    website Development and UI designs.
+                    <a href="#">#GLDVIPYT</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/feed-image-1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like-blue.png"> 120</div>
+                            <div><img src="image/comments.png"> 45</div>
+                            <div><img src="image/share.png"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/member-2.png">
+                            <div>
+                                <p>John Doe</p>
+                                <span>Aprel 28 2020, 11:50 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Like and Share this video with friends, tag <span>@GLD VIP YT</span> Facebook page on your post.
+                    Ask your doubts in the comments <a href="#">#GLDVIPYT</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png"> 190</div>
+                            <div><img src="image/comments.png"> 15</div>
+                            <div><img src="image/share.png"> 3</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/member-3.png">
+                            <div>
+                                <p>Alison</p>
+                                <span>December 3 2003, 13:50 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Like and Share this video with friends, tag <span>@GLD VIP YT</span> Facebook page on your post.
+                    Ask your doubts in the comments <a href="#">#GLDVIPYT</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png"> 120</div>
+                            <div><img src="image/comments.png"> 45</div>
+                            <div><img src="image/share.png"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/member-4.png">
+                            <div>
+                                <p>Jackson</p>
+                                <span>June 12 2012, 18:50 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Like and Share this video with friends, tag <span>@GLD VIP YT</span> Facebook page on your post.
+                    Ask your doubts in the comments <a href="#">#GLDVIPYT</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/feed-image-4.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png"> 120</div>
+                            <div><img src="image/comments.png"> 45</div>
+                            <div><img src="image/share.png"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/member-5.png">
+                            <div>
+                                <p>Samona</p>
+                                <span>December 3 2003, 13:50 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Like and Share this video with friends, tag <span>@GLD VIP YT</span> Facebook page on your post.
+                    Ask your doubts in the comments <a href="#">#GLDVIPYT</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="image/feed-image-5.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png"> 120</div>
+                            <div><img src="image/comments.png"> 45</div>
+                            <div><img src="image/share.png"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="image/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyright 2022 - Abdalla Mansour</p>
+    </div>
+    <script src="/js/profile.js"></script>
+</body>
+</html>
